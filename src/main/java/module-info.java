@@ -14,6 +14,6 @@ module top.myjinji.easyftpserver {
     exports top.myjinji.easyftpserver.gui;
     opens top.myjinji.easyftpserver.gui to javafx.fxml;
     exports top.myjinji.easyftpserver;
-    exports top.myjinji.easyftpserver.server;
-    opens top.myjinji.easyftpserver.server to javafx.fxml;
+    exports top.myjinji.easyftpserver.backend;
+    opens top.myjinji.easyftpserver.backend to javafx.fxml;
 }
