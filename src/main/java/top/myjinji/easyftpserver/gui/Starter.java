@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import top.myjinji.easyftpserver.Logger;
 
 public class Starter extends Application {
 
@@ -13,6 +14,8 @@ public class Starter extends Application {
         Scene scene = new Scene(fxmlLoader.load(), 320, 240);
         stage.setScene(scene);
         stage.show();
+
+        Logger.info("窗口启动");
     }
 
     public static void main(String[] args) {

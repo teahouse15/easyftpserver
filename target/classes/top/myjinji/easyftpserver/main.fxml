@@ -16,6 +16,9 @@
     <HBox>
         <Label>IP地址：</Label>
         <TextField>0.0.0.0</TextField>
+
+        <Label>端口：</Label>
+        <TextField>21</TextField>
 <!--        <ChoiceBox>-->
 <!--            <items>-->
 <!--                <FXCollections fx:factory="observableArrayList">-->
@@ -28,14 +31,15 @@
     </HBox>
 
     <HBox>
-        <Label>端口：</Label>
-        <TextField>21</TextField>
+        <Label>匿名</Label>
     </HBox>
 
     <HBox>
         <Label></Label>
-        <CheckBox visible="true" text="全选" />
-
+        <CheckBox visible="true" text="读取" />
+        <CheckBox visible="true" text="写入" />
+        <CheckBox visible="true" text="删除" />
+        <CheckBox visible="true" text="更改" />
     </HBox>
 
     <HBox>

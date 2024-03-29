@@ -9,8 +9,5 @@
         <module name="easyftpserver" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="easyftpserver" target="0" />
-    </bytecodeTargetLevel>
   </component>
 </project>
